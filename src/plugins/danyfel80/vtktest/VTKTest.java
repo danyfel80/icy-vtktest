@@ -8,12 +8,15 @@ import plugins.adufour.ezplug.EzVarSequence;
 
 /**
  * VTK test class that uses an overlay to show 3d lines
+ * 
  * @author Daniel Felipe Gonzalez Obando
  */
 public class VTKTest extends EzPlug {
 
   private EzVarSequence inSequence;
-  /* (non-Javadoc)
+
+  /*
+   * (non-Javadoc)
    * @see plugins.adufour.ezplug.EzPlug#initialize()
    */
   @Override
@@ -21,8 +24,9 @@ public class VTKTest extends EzPlug {
     inSequence = new EzVarSequence("Sequence");
     addEzComponent(inSequence);
   }
-  
-  /* (non-Javadoc)
+
+  /*
+   * (non-Javadoc)
    * @see plugins.adufour.ezplug.EzPlug#execute()
    */
   @Override
@@ -32,7 +36,8 @@ public class VTKTest extends EzPlug {
     }
   }
 
-  /* (non-Javadoc)
+  /*
+   * (non-Javadoc)
    * @see plugins.adufour.ezplug.EzPlug#clean()
    */
   @Override
